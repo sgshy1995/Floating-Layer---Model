@@ -1,5 +1,11 @@
 # Floating-Layer---Model
 
+#### 实现的功能
+点击按钮弹出浮层<br>
+点击别处关闭浮层<br>
+点击浮层时，浮层不得关闭<br>
+再次点击按钮，浮层消失
+
 #### 旧版本的JS
 很复杂<br>
 首先要为`popover.style.display`赋值为`'none'`，因为`.style`是DOM的style属性，无法读取到CSS中的属性。<br>
