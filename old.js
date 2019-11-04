@@ -1,4 +1,4 @@
-popover.style.display = 'none' //先为display定义值，否则它的默认为空，就会自动跳到else里面去
+popover.style.display = 'none' //先为display定义值，否则它的默认为空，就会自动跳到else里面
 
 $(clickMe).on('click', function (sgs) {
 
